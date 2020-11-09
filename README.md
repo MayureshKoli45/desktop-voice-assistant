@@ -4,6 +4,8 @@ Making a Desktop Voice Assistant in python to automate some stuff on your deskto
 
 Used multiple modules to make this Voice Assistant
 
+Used Procedural Programming approach
+
 Note :- This is not a Machine Learning or Artificial Intelligence this fully Python based project 
 
 Modules used to make this project :-
