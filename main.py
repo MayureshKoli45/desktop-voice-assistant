@@ -773,22 +773,6 @@ if __name__ == "__main__":
                 speak('Sorry ' + 'Sir' + '!, I am unable to send your message at this moment!')
 
 #/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////        
-
-#code to search on Wikipedia:-
-
-        else:
-            try:
-                try:
-                    res = client.query(query)
-                    results = next(res.results).text
-                    print(results)
-                    speak(results)
-                except:
-                    results = wikipedia.summary(query, sentences=2)
-                    print(results)
-                    speak(results)
-            except:
-                print("sorry")
                 
 
 input()                
